@@ -11,11 +11,10 @@ export class Sidebar extends Component {
     this.state = {
       tabs: [
         { content: 'About', href: 'about' },
-        { content: 'Experience', href: 'experience' },
         { content: 'Education', href: 'education' },
+        { content: 'Projects & Experience', href: 'projects' },
         { content: 'Skills', href: 'skills' },
         { content: 'Interests', href: 'interests' },
-        { content: 'Awards', href: 'awards' },
       ],
       isCollapsed: true,
     };
@@ -38,13 +37,6 @@ export class Sidebar extends Component {
         <a className="navbar-brand" href="#page-top">
           <span className="d-block d-lg-none">
             {config.firstName} {config.lastName}
-          </span>
-          <span className="d-none d-lg-block">
-            <img
-              className="img-fluid img-profile rounded-circle mx-auto mb-2"
-              src={avatar}
-              alt=""
-            />
           </span>
         </a>
         <button

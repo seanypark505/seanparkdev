@@ -73,8 +73,17 @@ p.lead {
 .dev-icons {
   font-size: 3rem;
   .list-inline-item i {
+    margin-right: .5em;
     &:hover {
       color: $primary;
     }
   }
+}
+
+.btn {
+  color: $gray-200;
+}
+
+.btn-dark {
+  background-color: $primary
 }
