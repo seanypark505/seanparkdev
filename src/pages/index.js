@@ -111,14 +111,19 @@ const IndexPage = () => (
             <div className="resume-content">
               <h3 className="mb-0">Corporate Investigations & Internal Audit Manager</h3>
               <div className="subheading mb-3">Goodwill Industries of Orange County</div>
-              <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
-              </p>
+              <ul>
+                <li>Developed a forklift license renewal tracker with Visual Basic for Applications (VBA) to send automated
+emails notifying supervisors of upcoming recertification dates for employees in their department.</li>
+                <li>Instituted the first iteration of an online training program in 2018 allowing the organization to analyze
+learning metrics. Employee engagement increased by at least 60%.</li>
+                <li>Produced, filmed, and edited videos, which were then uploaded onto YouTube to promote employee
+engagement and widespread access to material. Videos edited with Adobe Premiere Pro.</li>
+                <li>Created tutorials, how-to guides, and documentation to facilitate an environment for self-learning and
+professional development.</li>
+                <li>Collaborated with IT and Human Resources departments to leverage existing software in order to create
+new processes in various parts of the company, eliminating the need for additional expenditures, which
+resulted in a savings of $20,000 in 2019.</li>
+              </ul>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">March 2015 - Present</span>
